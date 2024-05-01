@@ -1,0 +1,487 @@
+.imagehydr{
+    display: flex;
+    width: 500px;
+    height: 340px;
+    margin-top: 34px;
+    margin-left: 12px;
+}
+.price {
+    font-size: 24px;
+    color:#001f33;
+}
+.product-details {
+    margin-top: 20px;
+    margin-left: 43px;
+    display: flex;
+    justify-content: space-between;
+}
+.variation-button {
+    background-color:#001f33;
+    color: #fff;
+    width: 270px;
+    height: 55px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-right: 93px;
+}
+
+.variation-button:hover {
+    color:#001f33;
+    background-color: #fff;
+    width: 275px;
+    transition: 1s;
+}
+
+/* ssssssssssssssss? */
+* {margin: 0; padding: 0;}
+body {background: #ccc;}
+
+.slider{
+	width: 640px; 
+    height: 100px;
+	position: relative;
+	padding-top: 320px; 
+	margin-bottom: 12px;
+	margin: 100px auto;
+		box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.75);
+}
+.slider>img{
+	position: absolute;
+	left: 0; top: 0;
+	transition: all 0.5s;
+}
+
+.slider input[name='slide_switch'] {
+	display: none;
+}
+
+.slider label {
+	margin: 18px 0 0 18px;
+	border: 3px solid #999;
+	margin-top: 120px;
+    margin-left:35px ;
+    height: 60px;
+	float: left;
+	cursor: pointer;
+	transition: all 0.5s;
+		opacity: 0.6;
+}
+
+.slider label img{
+	display: block;
+}
+
+.slider input[name='slide_switch']:checked+label {
+	border-color: #666;
+	opacity: 1;
+}
+.slider input[name='slide_switch'] ~ img {
+	opacity: 0;
+	transform: scale(1.1);
+}
+.slider input[name='slide_switch']:checked+label+img {
+	opacity: 1;
+	transform: scale(1);
+}
+.wat1sell{
+    height: 420px;
+    width: 450px;
+    margin-left: 104px;
+}
+.wat1sell1{
+    height: 60px;
+    width: 80px;
+    /* margin-top: 104px; */
+}
+/* .details{
+    display: flex;
+    background-color: white;
+} */
+
+
+.sex{
+	display: flex;
+	justify-content: space-between;
+    margin-top: 83px;
+}
+/* .container{
+	display: grid;
+	width: 460px;
+	
+	margin-left: 73px;
+	color: gray;
+	
+} */
+.container {
+	max-width: 800px;
+	color: gray;
+	margin: 20px auto;
+	margin-left: 42px;
+	padding: 20px;
+	border-radius: 8px;
+	width: 400px;
+}
+.sef{
+	display: grid;
+	/* background-color: aquamarine; */
+	margin-right: 77px;
+	width: 430px;
+}
+a{
+	cursor:pointer;
+}
+a:hover{
+	color: aqua;
+}
+
+.arr{
+	display:flex;
+	/* color: beige; */
+	justify-content: space-between;
+	
+}
+svg{
+	margin-top: 0px;
+	padding-right: 22px;
+}
+.specification:hover{
+	cursor: pointer;
+}
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f2f2f2;
+	margin: 0;
+	padding: 0;
+}
+
+.container1 {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	margin: 20px;
+}
+
+.section1 {
+	background-color: #fff;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	padding: 7px;
+	margin: 10px;
+	flex: 1;
+	width: 40px;
+}
+
+h2 {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+p {
+	font-size: 16px;
+	line-height: 1.6;
+}
+
+
+
+
+
+/* ////////////// */
+.details {
+	display: none;
+}
+
+.details.show {
+	display: block;
+}
+
+/* //////////// */
+.watsell{
+    height: 202px;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.watch {
+    /* border: 1px solid #ccc; */
+    padding: 20px;
+    text-align: center;
+    height: 34px;
+}
+
+.watsell:hover{
+    height: 211px;
+    transition: 1s;
+  }
+
+  button{
+    border-radius: 13px;
+    border:6px;
+    color: azure;
+    background-color: #001f33;
+    height: 33px;
+    width: 150px;
+  }
+  button:hover{
+    border:2px;
+    background-color: white;
+    color: #001f33;
+    cursor: pointer;
+    text-decoration: solid;
+    width: 155px;
+  }
+
+  .swq{
+	margin-left: 32px;
+  }
+
+  .reference{
+	margin-top: 302px;
+  }
+  nav {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff14;
+    color: #001f33;
+    padding: 9px;
+    margin-top: 1px;
+    width: 1130px;
+    border-bottom: 32px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+.navbar{
+  position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #ffffff14;
+      color: #001f33;
+      transition: top 0.3s;
+}
+
+/* /////////////////////////// */
+.add-to-cart {
+  --background-default: #17171B;
+  --background-hover: #0A0A0C;
+  --background-scale: 1;
+  --text-color: #fff;
+  --text-o: 1;
+  --text-x: 12px;
+  --cart: #fff;
+  --cart-x: -48px;
+  --cart-y: 0px;
+  --cart-rotate: 0deg;
+  --cart-scale: .75;
+  --cart-clip: 0px;
+  --cart-clip-x: 0px;
+  --cart-tick-offset: 10px;
+  --cart-tick-color: #FF328B;
+  --shirt-y: -16px;
+  --shirt-scale: 0;
+  --shirt-color: #17171B;
+  --shirt-logo: #fff;
+  --shirt-second-y: 24px;
+  --shirt-second-color: #fff;
+  --shirt-second-logo: #17171B;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: none;
+  outline: none;
+  background: none;
+  border: none;
+  padding: 12px 0;
+  width: 164px;
+  margin: 0;
+  cursor: pointer;
+  position: relative;
+  font-family: inherit;
+  &:before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      border-radius: 5px;
+      transition: background .25s;
+      background: var(--background, var(--background-default));
+      transform: scaleX(var(--background-scale)) translateZ(0);
+  }
+  &:not(.active) {
+      &:hover {
+          --background: var(--background-hover);
+      }
+  }
+  span {
+      display: block;
+      text-align: center;
+      position: relative;
+      z-index: 1;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 24px;
+      color: var(--text-color);
+      opacity: var(--text-o);
+      transform: translateX(var(--text-x)) translateZ(0);
+  }
+  svg {
+      display: block;
+      width: var(--svg-width, 24px);
+      height: var(--svg-height, 24px);
+      position: var(--svg-position, relative);
+      left: var(--svg-left, 0);
+      top: var(--svg-top, 0);
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      path {
+          fill: var(--svg-fill, none);
+          stroke: var(--svg-stroke, none);
+          stroke-width: var(--svg-stroke-width, 2);
+      }
+  }
+  .morph {
+      --svg-width: 64px;
+      --svg-height: 13px;
+      --svg-left: 50%;
+      --svg-top: -12px;
+      --svg-position: absolute;
+      --svg-fill: var(--background, var(--background-default));
+      transition: fill .25s;
+      pointer-events: none;
+      margin-left: -32px;
+  }
+  .shirt,
+  .cart {
+      pointer-events: none;
+      position: absolute;
+      left: 50%;
+  }
+  .shirt {
+      margin: -12px 0 0 -12px;
+      top: 0;
+      transform-origin: 50% 100%;
+      transform: translateY(var(--shirt-y)) scale(var(--shirt-scale));
+      svg {
+          --svg-fill: var(--shirt-color);
+          g {
+              --svg-fill: var(--svg-g-fill, var(--shirt-logo));
+          }
+          &.second {
+              --svg-fill: var(--shirt-second-color);
+              --svg-g-fill: var(--shirt-second-logo);
+              --svg-position: absolute;
+              clip-path: polygon(0 var(--shirt-second-y), 24px var(--shirt-second-y), 24px 24px, 0 24px);
+          }
+      }
+  }
+  .cart {
+      --svg-width: 36px;
+      --svg-height: 26px;
+      --svg-stroke: var(--cart);
+      top: 10px;
+      margin-left: -18px;
+      transform: translate(var(--cart-x), var(--cart-y)) rotate(var(--cart-rotate)) scale(var(--cart-scale)) translateZ(0);
+      &:before {
+          content: '';
+          display: block;
+          width: 22px;
+          height: 12px;
+          position: absolute;
+          left: 7px;
+          top: 7px;
+          background: var(--cart);
+          clip-path: polygon(0 0, 22px 0, calc(22px - var(--cart-clip-x)) var(--cart-clip), var(--cart-clip-x) var(--cart-clip));
+      }
+      path {
+          &.wheel {
+              --svg-stroke-width: 1.5;
+          }
+          &.tick {
+              --svg-stroke: var(--cart-tick-color);
+              stroke-dasharray: 10px;
+              stroke-dashoffset: var(--cart-tick-offset);
+          }
+      }
+  }
+}
+
+.white,
+.dark {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dark {
+  background: #17171B;
+  .add-to-cart {
+      --background-default: #fff;
+      --background-hover: #F2F2F9;
+      --text-color: #17171B;
+      --cart: #17171B;
+      --cart-tick-color: #FF328B;
+      --shirt-color: #fff;
+      --shirt-logo: #17171B;
+      --shirt-second-color: #17171B;
+      --shirt-second-logo: #fff;
+  }
+}
+
+html {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: inherit;
+  &:before,
+  &:after {
+      box-sizing: inherit;
+  }
+}
+
+/* // Center & dribbble */
+/* body {
+  min-height: 100vh;
+  display: flex;
+  font-family: 'Inter', Arial;
+  background: #F2F2F9;
+  .dribbble {
+      position: fixed;
+      display: block;
+      right: 20px;
+      bottom: 20px;
+      img {
+          display: block;
+          height: 28px;
+      }
+  }
+  .twitter {
+      position: fixed;
+      display: block;
+      right: 64px;
+      bottom: 14px;
+      svg {
+          width: 32px;
+          height: 32px;
+          fill: #1da1f2;
+      }
+  }
+} */
+

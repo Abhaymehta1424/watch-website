@@ -1,0 +1,145 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+   */
+  /* Basic styles for the navigation bar */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+
+  /* Additional styles for the products page */
+
+  .lis{
+    color: aliceblue;
+}
+  .mens-watch{
+    display: flex;
+    height: 440px;
+    margin-bottom: 42px;
+  }
+  .watch-show1{
+    display: flex;
+    height: 423px;
+    margin-bottom: 42px;
+    margin-top: 402px;
+  }
+  .watch-show2{
+    display: flex;
+    height: 423px;
+    margin-top: 43px;
+    padding-top: 150px;
+  }
+
+
+  /* Styles for grid layout */
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    cursor: pointer;
+    padding-bottom: 43px;
+}
+
+.watch {
+    /* border: 1px solid #ccc; */
+    padding: 20px;
+    text-align: center;
+    height: 34px;
+}
+
+.grid-item img {
+  max-width: 100%;
+  height: auto;
+}
+.watsell{
+  height: 202px;
+}
+.grid-container-2,.grid-container-3,.grid-container-4,.grid-container-5 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+  margin-bottom: 302px;
+  padding-bottom: 123px;
+  /* margin-bottom: 43px; */
+}
+
+.grid-container-2:hover,.grid-container-3:hover,.grid-container-4:hover,.grid-container-5:hover {
+  cursor: pointer;
+
+}
+.watsell:hover{
+  height: 211px;
+  transition: 1s;
+}
+
+.pagep1-6{
+  display: flex;
+  margin-top: 150px;
+  padding-top: 43px;
+  margin-bottom: 90px;
+  margin-left: 250px;
+  margin-right: 250px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: small;
+  font-weight: bold;
+  
+}
+
+
+button{
+  border-radius: 13px;
+  border:6px;
+  color: azure;
+  background-color: #001f33;
+  height: 33px;
+  width: 150px;
+}
+button:hover{
+  border:2px;
+  background-color: white;
+  color: #001f33;
+  cursor: pointer;
+  text-decoration: solid;
+  width: 155px;
+}
+/* .grid-container-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+  margin-bottom: 302px;
+} */
+/* .grid-container-4 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+  margin-bottom: 302px;
+} */
+/* .grid-container-5 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+  margin-bottom: 302px;
+} */
